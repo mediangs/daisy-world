@@ -10,7 +10,7 @@ def app():
 
     # ALres, ALb, ALw =  , 검은 데이지의 반사율, 흰 데이지의 반사율
     # F: 열흡수 상수, drD: 데이지의 사망률
-
+    st.title('Welcome to Daisy World!')
     ALres = st.sidebar.slider('ALres', min_value=0.1, max_value=1.0, value=0.5, step=0.1)
     ALb = st.sidebar.slider('검은색데이지 반사율', min_value=0.1, max_value=0.5, value=0.25, step=0.05)
     ALw = st.sidebar.slider('흰색데이지 반사율', min_value=0.5, max_value=1.0, value=0.75, step=0.05)
